@@ -1,0 +1,13 @@
+.count{
+    font-size:150px;
+    font-style: initial;
+}
+
+.counterButton{
+    font-size: large;
+    width: 100px;
+    margin: 10px;
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+}
