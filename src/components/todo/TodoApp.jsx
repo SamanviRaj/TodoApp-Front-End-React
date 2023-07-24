@@ -11,6 +11,12 @@ import WelcomeComponent from '../todo/WelcomeComponent'
 import Authprovider, { useAuth } from '../todo/security/AuthContext'
 import TodoComponent from './TodoComponent'
 
+
+/*
+    Author: Rajesh Thota
+    App : Todo App Front End React
+*/
+
 function AuthenticatedRoute({children}){
     const authContext = useAuth()
     if(authContext.isAuthenticated)
