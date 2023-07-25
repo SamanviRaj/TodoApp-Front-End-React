@@ -87,7 +87,7 @@ export default function TodoComponent() {
     }
 
   return (
-    <div className=''>
+    <div className="container">
         <h1> Enter Todo Details !!</h1>
         <div>
             <Formik initialValues={{ description,targetDate}}
