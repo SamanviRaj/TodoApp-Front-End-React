@@ -54,6 +54,9 @@ export default function ListTodosComponent(){
             <h1>Things you want to Do !!</h1>
             {message && <div className="alert alert-warning time">{message}</div>}
             <div>
+                <div>
+                    <div className="btn btn-success m-3" onClick={addNewTodo}>Add New Todo !!</div>
+                </div>
                 <table className="table" key={todos.id}>
                     <thead>
                         <tr>
@@ -82,9 +85,7 @@ export default function ListTodosComponent(){
                         }
                     </tbody>
                 </table>
-                <div>
-                    <div className="btn btn-success m-3" onClick={addNewTodo}>Add New Todo !!</div>
-                </div>
+                
             </div>
         </div>
     )
